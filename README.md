@@ -41,13 +41,6 @@ pip install watchdog pywin32
 python ETS.py
 ```
 
-### 打包可执行文件
-
-```bash
-python build_and_protect.py
-```
-
-打包后的可执行文件位于：`dist/ETS检测器.exe`
 
 ## 项目结构
 
@@ -57,7 +50,6 @@ ETS/
 ├── scanner.py              # 目录扫描模块
 ├── xml_parser.py           # XML 解析模块
 ├── monitor.py              # 文件监控模块
-├── build_and_protect.py   # 打包和混淆脚本
 ├── ETS.spec               # PyInstaller 配置
 └── .gitignore             # Git 忽略文件
 ```
