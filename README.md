@@ -18,12 +18,9 @@ This tool is only compatible with Windows and requires the installation of the P
 
 ## 功能特性
 
-- 实时监控 XML 文件变化
-- 自动解析答案内容（keyword 和 keypoint）
 - 自动扫描开始菜单寻找 ETS 软件目录
 - 简洁美观的 GUI 界面
 - 支持结果折叠/展开
-- 代码混淆和反调试保护
 
 ## 系统要求
 
@@ -64,15 +61,6 @@ ETS/
 ├── ETS.spec               # PyInstaller 配置
 └── .gitignore             # Git 忽略文件
 ```
-
-## 功能说明
-
-1. **自动扫描**：程序启动时自动扫描开始菜单，寻找 ETS 或 E听说 软件目录
-2. **实时监控**：监控指定目录下的 XML 文件变化
-3. **答案解析**：自动解析 XML 中的 keyword 和 keypoint 内容
-4. **结果展示**：
-   - keypoint：显示所有内容
-   - keyword：显示前3行，后续内容可折叠展开
 
 ## 注意事项
 
